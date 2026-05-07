@@ -73,3 +73,4 @@ if st.button("Predict"):
         st.success(f"Predicted Delay: {prediction[0]:.2f} minutes")
     except Exception as e:
         st.error(f"Error: {e}")
+        
